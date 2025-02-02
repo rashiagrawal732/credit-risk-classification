@@ -1,23 +1,14 @@
 # credit-risk-classification
-Credit Risk Analysis Report
+Analysis Overview
 
-Overview of the Analysis
-This analysis evaluates the effectiveness of a logistic regression model in predicting credit risk associated with loans. The model was trained and tested on financial data, including loan amounts, interest rates, borrower income, debt-to-income ratios, number of accounts, derogatory marks, and total debt. The goal was to classify loans as either low-risk ("0") or high-risk ("1").
+This report assesses the performance of a logistic regression model in predicting credit risk for loans. The model was trained on financial data that included loan amounts, interest rates, borrower income, debt-to-income ratios, number of accounts, derogatory marks, and total debt. The goal was to classify loans as either low-risk, labeled as "0," or high-risk, labeled as "1."
 
-The machine learning process followed these key steps:
+The machine learning process involved dividing the dataset into training and testing sets, developing and fitting a logistic regression model, and evaluating its performance based on accuracy, precision, recall, and F1 scores.
 
-Splitting the dataset into training and testing sets
-Training and fitting a logistic regression model
-Assessing model performance using accuracy, precision, recall, and F1 scores
-Machine Learning Model Performance
-Accuracy, Precision, and Recall Scores
+Model Performance Evaluation
 
-Accuracy: The model achieved an accuracy of 99%, meaning it correctly classified 99% of loan cases.
-Precision:
-For low-risk loans ("0"), the precision was 1.00, indicating that all identified low-risk loans were indeed low-risk.
-For high-risk loans ("1"), the precision was 0.87, showing moderate effectiveness in identifying high-risk loans, with some false positives.
-Recall:
-For low-risk loans ("0"), the recall was 1.00, meaning the model correctly identified all instances of low-risk loans.
-For high-risk loans ("1"), the recall was 0.89, reflecting moderate success in capturing high-risk loans, though some were missed.
-Summary
-Based on these results, the logistic regression model performed well in distinguishing between low-risk and high-risk loans. The model's strong precision, recall, and F1 scores for high-risk loans make it a valuable tool for lenders in mitigating financial risk and reducing the occurrence of bad loans.
+The model achieved an accuracy rate of 99%, indicating that it correctly classified the vast majority of loan cases. In terms of precision, it perfectly identified low-risk loans with a score of 1.00, ensuring no false positives in that category. For high-risk loans, the precision score was 0.87, meaning the model was moderately effective but still produced some false positives. The recall score for low-risk loans was also 1.00, successfully capturing all instances in that category. For high-risk loans, the recall was 0.89, reflecting the model’s ability to correctly identify most high-risk cases, though some were missed.
+
+Conclusion
+
+The logistic regression model demonstrates strong predictive performance, particularly in distinguishing high-risk loans. Its high precision and recall scores make it a valuable tool for lenders seeking to mitigate financial risk by reducing the occurrence of defaulted loans.
